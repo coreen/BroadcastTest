@@ -12,6 +12,9 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <!-- Custom actions to list from widget broadcast -->
+                <action android:name="com.example.broadcasttest.WIDGET_PLAY" />
+                <action android:name="com.example.broadcasttest.WIDGET_SKIP" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
